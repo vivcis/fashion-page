@@ -4,12 +4,6 @@ nav{
 body{
 font-family: Montserrat;
 }
-.navimg{
-    background: url(../img/image_9\ 1.png);
-    width: 100%;
-    height: 800px;
-    padding-top: 295px;
-}
 .a ,.b{
     display: table;
     margin: 0 auto;
@@ -70,4 +64,120 @@ textarea{
 }
 .foot3{
     padding-top: 50px;
+}
+/* navbar image*/
+@media (min-width: 600px){
+    .navimg{
+            background: url(../img/image_9\ 1.png);
+            width: 100%;
+            height: 958.93px;
+            padding-top: 295px;
+    }
+}
+@media (max-width: 600px){
+    .navimg{
+        background: url(../img/image_9\ 1.png);
+        width: 100%;
+        height: 300px;
+    }
+}
+/* fontsize of all headings*/
+@media (max-width: 600px){
+   .large1 , .large2 , .large3, .large4 , .large5{
+       font-size: 25px;
+   }
+}
+@media (min-width: 600px){
+    .large1 , .large2 , .large3, .large4 , .large5{
+        font-size: 60px;
+    }
+ }
+ /* fontsizes of medium size headigngs*/
+ @media(max-width: 600px){
+         .med1{
+             font-size: 12px;
+         }
+ }
+ @media(min-width: 600px){
+     .med1{
+    font-size: 40px; 
+ }
+}
+/* fontsizes of small paragraphs*/
+@media(max-width: 600px){
+    .smal1, .smal2 ,.smal3 ,.smal4 , .smal5 , .smal6, .dat1 ,.dat2 ,.dat3{
+        font-size: 8px;
+    }
+}
+@media(min-width: 600px){
+.smal1, .smal2 ,.smal3 ,.smal4, .smal5 , .smal6 , .dat1 ,.dat2 ,.dat3{
+font-size: 20px; 
+}
+}
+/*image sizes of body*/
+ @media (min-width: 700px){
+     .firimg{
+    width: 537px;
+     height: 600px;
+     }
+ }
+ @media (max-width: 700px){
+     .firimg{
+   width: 150px;
+   height: 184px;
+     }
+}
+/* buttons*/
+@media(max-width: 600px){
+    .butt1, .butt2{
+      width:134px ;
+      height: 23px;
+      border-radius: 5px;
+      font-size: 11px;
+        line-height: 13px;
+    }
+}
+@media(min-width: 600px){
+    .butt1, .butt2{
+        width:289px ;
+        height: 68px;
+        border-radius: 5px;
+        font-size: 24px;
+        line-height: 29px;
+    }
+}
+/* blog images*/
+@media(min-width: 600px){
+    .blogimg1, .blogimg2 , .blogimg3{
+     width: 360px;
+     height: 402px;
+    }
+}
+@media(max-width: 600px){
+    .blogimg1, .blogimg2 , .blogimg3{
+        width: 115px;
+     height: 128px;
+    }
+}
+/* blog headings*/
+@media(max-width: 600px){
+    .meblo1, .meblo2, .meblo3{
+        font-size: 11px;
+    }
+}
+@media(min-width: 600px){
+    .meblo1, .meblo2, .meblo3{
+font-size: 24px; 
+}
+}
+/* footer titles*/
+@media(max-width: 600px){
+    .med2, .med3{
+        font-size: 25px;
+    }
+}
+@media(min-width: 600px){
+.med2, .med3{
+font-size: 40px; 
+}
 }
